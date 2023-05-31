@@ -42,6 +42,14 @@ public class Studyoop {
         lPersonas.add(persona1);    
         lPersonas.add(persona2);
         System.out.println(lPersonas.get(0).name);
+        for(int j = 0;j < lPersonas.size();j++){//ahora imprimiremos las personas de nuestro ArrayList
+	System.out.println("============================================================");
+	System.out.println("Persona numero "+j);
+	Person persona = lPersonas.get(j);
+	System.out.println("Nombre: "+persona.name);
+	System.out.println("============================================================");
+}
+  
       
         
 
